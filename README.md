@@ -1,7 +1,9 @@
 # WiFi-Thermostat # 
 
 ----------
+<div align=center>
 ![](https://github.com/zikunliu/WiFi-Thermostat/blob/master/Lego.PNG)
+</div>
 * The WiFi Thermostat is a college senior design project. The project builds a advanced thermostat that can replace the exist one in home. The WiFi allows user to regulate their house temprature remotely and monitor inside environment.
 
 * The extra function of thermostat is to set schedule on every day (up to six different time range each day) and four distinguished modes, which are sleep, save, precool and preheat mode. 
