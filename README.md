@@ -1,4 +1,4 @@
-# WiFi-Thermostat #
+# WiFi-Thermostat # ![](https://github.com/zikunliu/WiFi-Thermostat/blob/master/Lego.PNG)
 
 ----------
 * The WiFi Thermostat is a college senior design project. The project builds a advanced thermostat that can replace the exist one in home. The WiFi allows user to regulate their house temprature remotely and monitor inside environment.
