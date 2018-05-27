@@ -1380,75 +1380,7 @@ if __name__ == '__main__':
     #Back4=Save_Mode()
     sys.exit(app.exec_())
 
-    
-#below function is useless
-'''class CoolFunction(QtCore.QThread):
-    """docstring for BigWorkThread"""
-    def __init__(self, parent=None):
-        super(CoolFunction, self).__init__(parent)
-
-    def run(self):
-         global set_temp, cur_temp
-         cur_temp=cool_function(cur_temp, set_temp)
-         #print(set_temp)
-         #self.label_curtemp.setText(str(cur_temp))'''
-'''def curtempchange(self):
-    while True:
-        f=open('currentTemperature.txt')
-        cur_temp=(int)(f.readline())
-        self.label_curtemp.setText(str(cur_temp)+'°F')
-        print(cur_temp)
-        f.close'''
-'''
-#create different thread
-def coolFunction(self,cur_temp,set_temp):
-    #global cur_temp,set_temp
-    cur_temp=cool_function(cur_temp, set_temp,self)
-    #print(cur_temp)
-
-       
-def heatFunction(self,cur_temp,set_temp):
-    #global cur_temp,set_temp
-    cur_temp=heat_function(cur_temp, set_temp,self)
-    #print(cur_temp)
-
-
-def double(message):
-    while True:
-        f=open('currentTemperature.txt')
-        cur_temp=(int)(f.readline())
-        f.close
-        print(cur_temp)
-        if(cur_temp<set_temp):
-            time.sleep(2)
-            print('running')
-
-#_thread.start_new_thread(double,('I am running',))
-
-class synchronize(QThread):  
-    def run(self):
-        while True:
-            try:
-                if(getcloud()==1):
-                    global mode_cloud,fan_cloud,fan_state,mode_state,mode_state_cloud,precool_time,preheat_time,run_or_not_precool,run_or_not_preheat,run_or_not_save,run_or_not_sleep,sch_cloud,set_temp,sleep_time,stop_it
-                    fan_cloud, mode_cloud,mode_state_cloud,precool_time,preheat_time,run_or_not_precool,run_or_not_preheat,run_or_not_save,run_or_not_sleep,sch_cloud,set_temp,sleep_time,stop_it=getdata()
-                    print('running')
-                    time.sleep(2)
-                    if(fan_cloud==0):
-                        fan_state='On'
-                    else:
-                        fan_state='Auto'
-                    if(mode_cloud==0):
-                        mode_state='off'
-                    elif(mode_cloud==1):
-                        mode_state='cool'
-                    else:
-                        mode_state='heat'
-                    postdata('cloud',0)
-            except:
-                continue
-'''
-
+   
 
 
 
